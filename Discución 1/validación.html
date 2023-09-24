@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Validador de Expresiones Regulares</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Validador de Expresiones Regulares</h1>
+    <label for="tipoValidacion">Seleccione el tipo de validación:</label>
+    <select id="tipoValidacion">
+        <option value="ipv4">Dirección IPv4</option>
+        <option value="url">Dirección Web (URL)</option>
+        <option value="email">Dirección de Correo Electrónico</option>
+    </select>
+    <input type="text" id="direccion" placeholder="Ingrese la dirección a validar">
+    <button onclick="validar()">Validar</button>
+</body>
+</html>
